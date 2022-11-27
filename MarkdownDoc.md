@@ -3,7 +3,7 @@ Customers may become frustrated and may develop a negative opinion of you if you
 
 The same is true for API providers, cuisine blogs, and furniture retailers. Application programming interface (API) providers, or businesses who create, publish, and frequently monetize APIs, must offer API documentation that is accurate, detailed, and up-to-date. If not, it won't matter if they have the best API since if people don't know how to use it, they won't.
 
-![restful api](restful api.png)
+![api](api.png)
 
 You probably use or create APIs, or maybe even both, as they become more common in the digital economy. Because of this, it's crucial to be able to read and write API documentation. Starting off, let's define what API documentation is.
 
