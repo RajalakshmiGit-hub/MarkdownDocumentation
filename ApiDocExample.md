@@ -16,6 +16,8 @@ Developers may decide not to use your API at all or they may grow dissatisfied w
 OpenWeather offers hyperlocal minute forecasts, historical information, the current location, as well as short-term, long-term, and forecasted weather data for every location on the planet. All information is accessible through industry-standard APIs. 
 ## **Current weather data API** 
 With the help of OpenWeather's Current weather data API (Current weather data API), you may obtain current weather information for more than 200,000 places worldwide! They gather and analyse weather data from a variety of sources, including satellites, radars, local and worldwide weather models, and an extensive network of weather stations. The formats of the data are JSON, XML, or HTML.
+
+![api_working](Api.png)
 ### **Call current weather data**
 **API call**
 
