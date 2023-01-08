@@ -1,9 +1,8 @@
-﻿# **API to Fetch Aviation Taxes **
-- # **API Documentation**
+# **API to Fetch Aviation Taxes** - ***API Documentation***
 
 The taxes endpoint of the API may be used to retrieve information regarding aviation taxes. (Aviationstack API)
 ### **URL**
-### GET https://api.aviationstack.com/v1/taxes? access\_key = YOUR\_ACCESS\_KEY
+### GET https://api.aviationstack.com/v1/taxes?access\_key=YOUR\_ACCESS\_KEY
 ### **Query Parameters**
 
 |**Parameter**|**Description**|**Type**|**Required/Optional**|
@@ -17,35 +16,32 @@ The taxes endpoint of the API may be used to retrieve information regarding avia
 ### **Response**
 The response will be sent back in the form of a JSON object. 
 
-
-
-
-
 |**Element**|**Description**|**Type**|
 | :- | :- | :- |
 |<p>pagination.limit </p><p></p><p></p>|Returns the specified or default limit of results per pagination page.|Number|
 |<p>pagination.offset </p><p></p><p></p>|Returns the specified or default pagination offset.|Number|
 |pagination.count |Returns the number of results found on the current pagination page.|Number|
-|pagination.total ||Returns the total number of results found for your API request.|Number|
-|data||Returns an array of aviation taxes|Array of objects|
-|data. tax\_name||Returns the name of the aviation tax.|String|
-|data. iata\_code||Returns the IATA code associated with the aviation tax.|Number|
+|pagination.total |Returns the total number of results found for your API request.|Number|
+|data|Returns an array of aviation taxes|Array of objects|
+|data. tax\_name|Returns the name of the aviation tax.|String|
+|data. iata\_code|Returns the IATA code associated with the aviation tax.|Number|
+
 ### **Sample Response**
-### {
-### `   `"pagination": {
-### `       `"limit": 100,
-### `       `"offset": 0,
-### `       `"count": 100,
-### `       `"total": 521
-### `   `},
-### `   `"data": [
-### `      `{
-### `         `"tax\_name": "Government Tax",
-### `         `"iata\_code": "AB"
-### `      `},
-### `      `[...]
-### `   `]
-### } 
+{
+ `   `"pagination": {
+ `       `"limit": 100,
+ `       `"offset": 0,
+ `       `"count": 100,
+ `       `"total": 521
+ `   `},
+ `   `"data": [
+ `      `{
+ `         `"tax\_name": "Government Tax",
+`         `"iata\_code": "AB"
+ `      `},
+ `      `[...]
+ `   `]
+ } 
 ### **Status Codes and Errors**
 The following table lists the returned HTTP status codes.
 
@@ -54,9 +50,7 @@ The following table lists the returned HTTP status codes.
 |200 |Success|
 |400|Bad Request – Your request is invalid.|
 |401|Unauthorized – Your API key is invalid.|
-# **References**
+### **References**
 *Aviationstack API*. (n.d.). Retrieved from Aviationstack: https://aviationstack.com/documentation
-
-
 
 ***Disclaimer:*** This has been created as part of the IIM Skills - Technical Writing Master Course's assignment. The taxes endpoint of the Aviationstack API has been documented. This has been created solely for educational purposes and not for commercial purposes.
