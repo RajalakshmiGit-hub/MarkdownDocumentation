@@ -1,9 +1,8 @@
-﻿# **API to Fetch Different Types of Aircraft **
-- # **API Documentation**
+# **API to Fetch Different Types of Aircraft** -- ***API Documentation***
 
 Data about various aircraft types may be obtained using the aircraft type endpoint of the Aviationstack api. (Aviationstack API)
 ### **URL**
-### GET https://api.aviationstack.com/v1/aircraft\_types? access\_key = YOUR\_ACCESS\_KEY
+#### GET https://api.aviationstack.com/v1/aircraft\_types?access\_key=YOUR\_ACCESS\_KEY
 ### **Query Parameters**
 
 |Parameter|Description|Type|Required/Optional|
@@ -26,10 +25,10 @@ The response will be sent back in the form of a JSON object.
 |<p>pagination.limit </p><p></p><p></p>|Returns the specified or default limit of results per pagination page.|Number|
 |<p>pagination.offset </p><p></p><p></p>|Returns the specified or default pagination offset.|Number|
 |pagination.count |Returns the number of results found on the current pagination page.|Number|
-|pagination.total ||Returns the total number of results found for your API request.|Number|
-|data||Returns an array of aircrafts|Array of objects|
-|data. aircraft\_name||Returns the aircraft name associated with the aircraft type.|String|
-|data. iata\_code||Returns the IATA code associated with the aircraft type.|Number|
+|pagination.total |Returns the total number of results found for your API request.|Number|
+|data|Returns an array of aircrafts|Array of objects|
+|data. aircraft\_name|Returns the aircraft name associated with the aircraft type.|String|
+|data. iata\_code|Returns the IATA code associated with the aircraft type.|Number|
 ### **Sample Response**
 {
 
@@ -66,7 +65,7 @@ The following table lists the returned HTTP status codes.
 |200 |Success|
 |400|Bad Request – Your request is invalid.|
 |401|Unauthorized – Your API key is invalid.|
-# **References**
+### **References**
 *Aviationstack API*. (n.d.). Retrieved from Aviationstack: https://aviationstack.com/documentation
 
 
