@@ -1,6 +1,6 @@
 # **API to Search Destination Cities** -  ***API Documentation***
 
-Use the cities endpoint of the Aviationstack API to search for destination cities. (Aviationstack API)
+Use the cities endpoint of the Aviationstack API to search for destination cities. 
 ### **URL**
 #### GET https://api.aviationstack.com/v1/cities?access\_key=YOUR\_ACCESS\_KEY
 ### **Query Parameters**
