@@ -2,7 +2,7 @@
 
 The taxes endpoint of the API may be used to retrieve information regarding aviation taxes. (Aviationstack API)
 ### **URL**
-### GET https://api.aviationstack.com/v1/taxes?access\_key=YOUR\_ACCESS\_KEY
+#### GET https://api.aviationstack.com/v1/taxes?access\_key=YOUR\_ACCESS\_KEY
 ### **Query Parameters**
 
 |**Parameter**|**Description**|**Type**|**Required/Optional**|
@@ -28,20 +28,35 @@ The response will be sent back in the form of a JSON object.
 
 ### **Sample Response**
 {
+
  `   `"pagination": {
+ 
  `       `"limit": 100,
+ 
  `       `"offset": 0,
+ 
  `       `"count": 100,
+ 
  `       `"total": 521
+ 
  `   `},
+ 
  `   `"data": [
+ 
  `      `{
- `         `"tax\_name": "Government Tax",
+ 
+`         `"tax\_name": "Government Tax",
+
 `         `"iata\_code": "AB"
- `      `},
- `      `[...]
- `   `]
- } 
+
+`      `},
+ 
+`      `[...]
+
+`   `]
+
+} 
+
 ### **Status Codes and Errors**
 The following table lists the returned HTTP status codes.
 
