@@ -1,9 +1,8 @@
-﻿# **API to Search Destination Cities** 
-- # **API Documentation**
+# **API to Search Destination Cities** -  ***API Documentation***
 
-Use the cities endpoint of the API to search for destination cities. (Aviationstack API)
+Use the cities endpoint of the Aviationstack API to search for destination cities. (Aviationstack API)
 ### **URL**
-### GET https://api.aviationstack.com/v1/cities? access\_key = YOUR\_ACCESS\_KEY
+#### GET https://api.aviationstack.com/v1/cities?access\_key=YOUR\_ACCESS\_KEY
 ### **Query Parameters**
 
 |Parameter|Description|Type|Required/Optional|
@@ -36,30 +35,52 @@ The response will be sent back in the form of a JSON object.
 |data. timezone|Returns the timezone the city is in.|String|
 |data. gmt|Returns the GMT offset in hours.|Float|
 |data. geoname\_id|Returns the GeoName ID associated with the city.|Number|
-### **Sample Response**
-### {    
-### `   `"pagination": {
-### `       `"limit": 100,
-### `       `"offset": 0,
-### `       `"count": 100,
-### `       `"total": 9368
-### `   `},
-### `   `"data": [
-### `      `{
-### `         `"city\_name": "Anaa",
-### `         `"iata\_code": "AAA",
-### `         `"country\_iso2": "PF",
-### `         `"latitude": "-17.05",
-### `         `"longitude": "-145.41667",
-### `         `"timezone": "Pacific/Tahiti",
-### `         `"gmt": "-10",
-### `         `"geoname\_id": "0"
-### `      `},
-### `      `[...]
-### `   `]
-### } 
-###
 
+
+
+ **Sample Response**
+ 
+{    
+
+`   `"pagination": {
+
+`       `"limit": 100,
+
+`       `"offset": 0,
+
+`       `"count": 100,
+
+`       `"total": 9368
+
+`   `},
+
+`   `"data": [
+
+`      `{
+
+`         `"city\_name": "Anaa",
+
+`         `"iata\_code": "AAA",
+
+`         `"country\_iso2": "PF",
+
+`         `"latitude": "-17.05",
+
+`         `"longitude": "-145.41667",
+
+`         `"timezone": "Pacific/Tahiti",
+
+`         `"gmt": "-10",
+
+`         `"geoname\_id": "0"
+
+`      `},
+
+`      `[...]
+
+`   `]
+
+} 
 
 ### **Status Codes and Errors**
 The following table lists the returned HTTP status codes.
@@ -69,9 +90,7 @@ The following table lists the returned HTTP status codes.
 |200 |Success|
 |400|Bad Request – Your request is invalid.|
 |401|Unauthorized – Your API key is invalid.|
-# **References**
+### **References**
 *Aviationstack API*. (n.d.). Retrieved from Aviationstack: https://aviationstack.com/documentation
-
-
 
 ***Disclaimer:*** This has been created as part of the IIM Skills - Technical Writing Master Course's assignment. The cities endpoint of Aviationstack API has been documented. This has been created solely for educational purposes and not for commercial purposes.
