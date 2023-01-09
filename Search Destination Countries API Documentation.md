@@ -1,9 +1,8 @@
-﻿# **API to Search Destination Countries** 
-- # **API Documentation**
+# **API to Search Destination Countries** - ***API Documentation***
 
-Use the countries endpoint of the API to search for destination countries. (Aviationstack API)
+Use the countries endpoint of the Aviationstack API to search for destination countries.
 ### **URL**
-### GET https://api.aviationstack.com/v1/countries? access\_key = YOUR\_ACCESS\_KEY
+#### GET https://api.aviationstack.com/v1/countries?access\_key=YOUR\_ACCESS\_KEY
 ### **Query Parameters**
 
 |Parameter|Description|Type|Required/Optional|
@@ -15,11 +14,6 @@ Use the countries endpoint of the API to search for destination countries. (Avia
 |search|Use this parameter to get autocomplete suggestions for countries by specifying any search term as a string. |String|Optional|
 ### **Response**
 The response will be sent back in the form of a JSON object. 
-
-
-
-
-
 
 |Element|Description|Type|
 | :- | :- | :- |
@@ -39,31 +33,56 @@ The response will be sent back in the form of a JSON object.
 |data. currency\_code|Returns the code of the currency associated with the country.|String|
 |data. fips\_code|Returns the FIPS code of the country.|String|
 |data. phone\_prefix|Returns the phone prefix associated with the country.|Number|
-### **Sample Response**
-### {
-### `   `"pagination": {
-### `       `"limit": 100,
-### `       `"offset": 0,
-### `       `"count": 100,
-### `       `"total": 252
-### `   `},
-### `   `"data": [
-### `      `{
-### `         `"country\_name": "Andorra",
-### `         `"country\_iso2": "AD",
-### `         `"country\_iso3": "AND",
-### `         `"country\_iso\_numeric": "20",
-### `         `"population": "84000",
-### `         `"capital": "Andorra la Vella",
-### `         `"continent": "EU",
-### `         `"currency\_name": "Euro",
-### `         `"currency\_code": "EUR",
-### `         `"fips\_code": "AN",
-### `         `"phone\_prefix": "376"
-### `      `},
-### `      `[...]
-### `   `]
-### }      
+
+ **Sample Response**
+ 
+{
+
+`   `"pagination": {
+
+`       `"limit": 100,
+
+`       `"offset": 0,
+
+`       `"count": 100,
+
+`       `"total": 252
+
+`   `},
+
+`   `"data": [
+
+`      `{
+
+`         `"country\_name": "Andorra",
+
+`         `"country\_iso2": "AD",
+
+`         `"country\_iso3": "AND",
+
+`         `"country\_iso\_numeric": "20",
+
+`         `"population": "84000",
+
+`         `"capital": "Andorra la Vella",
+
+`         `"continent": "EU",
+
+`         `"currency\_name": "Euro",
+
+`         `"currency\_code": "EUR",
+
+`         `"fips\_code": "AN",
+
+`         `"phone\_prefix": "376"
+
+`      `},
+
+`      `[...]
+
+`   `]
+
+}      
 
 ### **Status Codes and Errors**
 The following table lists the returned HTTP status codes.
@@ -73,9 +92,8 @@ The following table lists the returned HTTP status codes.
 |200 |Success|
 |400|Bad Request – Your request is invalid.|
 |401|Unauthorized – Your API key is invalid.|
-# **References**
+
+### **References**
 *Aviationstack API*. (n.d.). Retrieved from Aviationstack: https://aviationstack.com/documentation
-
-
 
 ***Disclaimer:*** This has been created as part of the IIM Skills - Technical Writing Master Course's assignment. The countries endpoint of Aviationstack API has been documented. This has been created solely for educational purposes and not for commercial purposes.
