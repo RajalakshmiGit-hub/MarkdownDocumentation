@@ -1,6 +1,6 @@
 # **API to Fetch Different Types of Aircraft** -- ***API Documentation***
 
-Data about various aircraft types may be obtained using the aircraft type endpoint of the Aviationstack api. (Aviationstack API)
+Data about various aircraft types may be obtained using the aircraft type endpoint of the Aviationstack api. 
 ### **URL**
 #### GET https://api.aviationstack.com/v1/aircraft\_types?access\_key=YOUR\_ACCESS\_KEY
 ### **Query Parameters**
