@@ -1,6 +1,6 @@
 # **API to Fetch Aviation Taxes** - ***API Documentation***
 
-The taxes endpoint of the API may be used to retrieve information regarding aviation taxes. (Aviationstack API)
+The taxes endpoint of the API may be used to retrieve information regarding aviation taxes. 
 ### **URL**
 #### GET https://api.aviationstack.com/v1/taxes?access\_key=YOUR\_ACCESS\_KEY
 ### **Query Parameters**
